@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2005 STi asset review</title>
+  <style>
+    body { font: 15px Arial, sans-serif; margin: 30px; color: #26313a; background: #f5f6f7; }
+    main { max-width: 1200px; margin: auto; }
+    h1 { font-size: 26px; }
+    section { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+    figure { margin: 0; background: white; padding: 10px; }
+    img { width: 100%; display: block; }
+    figcaption { padding: 10px; font-size: 13px; }
+    p { line-height: 1.6; }
+    small { color: #52616c; }
+    @media (max-width: 500px) { body { margin: 12px; } section { grid-template-columns: 1fr; gap: 8px; } }
+  </style>
+  <main>
+    <h1>2005 WRX STi · Exterior asset review</h1>
+    <p>Thirty reconstructed illustrations: five paints, two BBS finishes and three camera angles. Fine details and paint appearance are approximate. Gold brake calipers are retained with both wheel finishes. Accessories are not depicted.</p>
+    <section id="gallery"></section>
+    <p><small>Generated with the built-in ImageGen tool. Prompts and provenance: docs/studio-generation.json and docs/studio-angle-generation.md. This page is an asset review, not historical evidence.</small></p>
+  </main>
+  <script>
+    const colors = { white: "Aspen White", gray: "Crystal Gray Metallic", black: "Obsidian Black Pearl", silver: "Platinum Silver Metallic", blue: "WR Blue Pearl" };
+    const gallery = document.querySelector("#gallery");
+    for (const [id, name] of Object.entries(colors)) for (const wheels of ["gold", "silver"]) for (const angle of ["front", "side", "rear"]) {
+      const suffix = angle === "front" ? "" : `-${angle}`;
+      gallery.insertAdjacentHTML("beforeend", `<figure><img src="/assets/studio/${id}-${wheels}${suffix}.webp" alt="${name}, ${wheels} BBS wheels, ${angle} view"><figcaption>${name} · ${wheels[0].toUpperCase() + wheels.slice(1)} BBS · ${angle[0].toUpperCase() + angle.slice(1)}</figcaption></figure>`);
+    }
+  </script>
+</html>

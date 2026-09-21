@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cockpit",
+    "tool": "built-in image_gen",
+    "mode": "reference-guided generation",
+    "references": [
+      "references/2005-sti/interior-official/official-cockpit.jpg",
+      "references/2005-sti/interior-official/official-overhead.jpg"
+    ],
+    "source": "2005 U.S. Subaru Impreza brochure, pages 8-9",
+    "prompt": "Create a polished, photorealistic automotive configurator showcase image of the FRONT COCKPIT of the exact U.S.-spec 2005 Subaru Impreza WRX STI shown in the official brochure references. Landscape 3:2 composition, 1536x1024. Camera centered slightly behind and above the front seats, looking forward across the full left-hand-drive cockpit. Preserve exact 2005 details: original three-spoke MOMO steering wheel with red stitching and small red STI badge, analog instrument cluster, silver-faced factory six-disc head unit, three round automatic-climate knobs, silver center console, six-speed manual shifter, parking brake and DCCD control; black dashboard; blue-and-black perforated Ecsaine front seats; blue door inserts and dark blue cabin carpet. Clean immaculate factory-new condition. Soft pale-gray studio/showroom light, balanced exposure, crisp upholstery texture, premium catalog presentation matching a modern Subaru build-and-price vehicle showcase. No people, no exterior scenery, no aftermarket gauges, no touchscreen, no navigation, no leather conversion, no sunroof, no right-hand drive, no added text, no watermark. Preserve the vehicle identity and interior geometry from the official references; enhance resolution, lighting and framing only.",
+    "original_file": "references/2005-sti/interior-originals/cockpit.png",
+    "delivery_file": "public/assets/interior/cockpit.webp",
+    "limitations": "Official brochure-based AI reconstruction, not an original factory render. Fine controls, stitching and reflections may vary."
+  },
+  {
+    "id": "cabin",
+    "tool": "built-in image_gen",
+    "mode": "reference-guided generation",
+    "references": [
+      "references/2005-sti/interior-official/official-overhead.jpg",
+      "references/2005-sti/interior-official/official-cockpit.jpg"
+    ],
+    "source": "2005 U.S. Subaru Impreza brochure, pages 8-9",
+    "prompt": "Create a polished, photorealistic automotive configurator showcase image of the FULL CABIN of the exact U.S.-spec 2005 Subaru Impreza WRX STI shown in the official brochure references. Landscape 3:2 composition, 1536x1024. High overhead cutaway-style camera looking straight down into the complete four-door cabin, with dashboard at the top, both front bucket seats, center console and full rear bench visible, matching the official overhead brochure composition. Preserve exact 2005 details: left-hand-drive dashboard; original blue-and-black perforated Ecsaine front seats and matching blue-and-black rear bench; blue door inserts; dark blue carpet; silver center console; six-speed manual shifter; handbrake and DCCD control. Clean immaculate factory-new condition. Soft pale-gray studio/showroom light, balanced exposure, crisp upholstery texture, premium catalog presentation matching a modern Subaru build-and-price vehicle showcase. No people, no exterior scenery, no aftermarket equipment, no touchscreen, no leather conversion, no sunroof, no right-hand drive, no added text, no watermark. Preserve the exact cabin layout, colors, materials and vehicle identity from the official references; enhance resolution, lighting and framing only.",
+    "original_file": "references/2005-sti/interior-originals/cabin.png",
+    "delivery_file": "public/assets/interior/cabin.webp",
+    "limitations": "Official brochure-based AI reconstruction, not an original factory render. Fine controls, stitching and reflections may vary."
+  },
+  {
+    "id": "rear",
+    "tool": "built-in image_gen",
+    "mode": "reference-guided generation",
+    "references": [
+      "references/2005-sti/interior-official/official-overhead.jpg",
+      "references/2005-sti/interior-official/official-cockpit.jpg"
+    ],
+    "source": "2005 U.S. Subaru Impreza brochure, pages 8-9",
+    "prompt": "Create a polished, photorealistic automotive configurator showcase image of the REAR PASSENGER CABIN of the exact U.S.-spec 2005 Subaru Impreza WRX STI shown in the official brochure references. Landscape 3:2 composition, 1536x1024. Camera positioned at the open right-rear doorway around shoulder height, looking diagonally across the complete rear bench toward the left side, while the backs and blue inserts of both front bucket seats appear in the foreground edges. Preserve exact 2005 details: fixed blue-and-black perforated Ecsaine rear bench with three seating positions and correct headrests, blue door inserts, dark blue carpet, black plastics, correct seat belts and buckles, original blue-and-black Ecsaine front bucket seats. Clean immaculate factory-new condition. Soft pale-gray studio/showroom light entering through the windows, balanced exposure, crisp upholstery texture, premium catalog presentation matching a modern Subaru build-and-price vehicle showcase. No people, no exterior scenery, no child seats, no cargo, no aftermarket equipment, no touchscreen, no leather conversion, no sunroof, no right-hand-drive cues, no added text, no watermark. Preserve the exact cabin colors, materials and vehicle identity from the official references; derive the rear-seat view faithfully and do not modernize the cabin.",
+    "original_file": "references/2005-sti/interior-originals/rear-blue.png",
+    "delivery_file": "public/assets/interior/rear-blue.webp",
+    "limitations": "Official brochure-based AI reconstruction. The rear-door view is derived from the brochure's overhead cabin reference and is not an original factory camera angle.",
+    "paint_variants": [
+      {
+        "color": "blue",
+        "paint": "WR Blue Pearl 02C",
+        "original_file": "references/2005-sti/interior-originals/rear-blue.png",
+        "delivery_file": "public/assets/interior/rear-blue.webp",
+        "mode": "base official-brochure-based reconstruction"
+      },
+      {
+        "color": "white",
+        "paint": "Aspen White 51E",
+        "original_file": "references/2005-sti/interior-originals/rear-white.png",
+        "delivery_file": "public/assets/interior/rear-white.webp",
+        "mode": "precise paint edit"
+      },
+      {
+        "color": "gray",
+        "paint": "Crystal Gray Metallic 48W",
+        "original_file": "references/2005-sti/interior-originals/rear-gray.png",
+        "delivery_file": "public/assets/interior/rear-gray.webp",
+        "mode": "precise paint edit"
+      },
+      {
+        "color": "silver",
+        "paint": "Platinum Silver Metallic 01G",
+        "original_file": "references/2005-sti/interior-originals/rear-silver.png",
+        "delivery_file": "public/assets/interior/rear-silver.webp",
+        "mode": "precise paint edit"
+      },
+      {
+        "color": "black",
+        "paint": "Obsidian Black Pearl 32J",
+        "original_file": "references/2005-sti/interior-originals/rear-black.png",
+        "delivery_file": "public/assets/interior/rear-black.webp",
+        "mode": "precise paint edit"
+      }
+    ],
+    "variant_prompt_template": "Precise automotive configurator variant edit. Change ONLY the small visible exterior-painted body surfaces in this exact rear-cabin image\u2014the right rear door jamb, latch surround, thin door opening edge, and any other exposed blue-painted metal\u2014to [FACTORY PAINT]. Preserve every other pixel-level subject detail and the exact 1536x1024 composition: camera, crop, blue-and-black Ecsaine seats, dark-blue carpet, door panels, glass, lighting, shadows, black weather seals, silver latch hardware and interior materials. Do not recolor any blue upholstery or carpet. Keep the cabin factory-new and photorealistic. No text, logos added, people or watermark."
+  }
+]

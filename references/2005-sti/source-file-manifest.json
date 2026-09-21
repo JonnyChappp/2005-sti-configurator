@@ -1,0 +1,162 @@
+[
+  {
+    "path": "sources/2005-global-accessories.pdf",
+    "bytes": 3566162,
+    "sha256": "f432c67a63101d636c0cd95d0546f333ff8287b8371c2c197501bfa9c73282e8"
+  },
+  {
+    "path": "sources/2005-us-impreza-brochure.pdf",
+    "bytes": 1643703,
+    "sha256": "9769b69c96f777dc5bb0ca237805fde661200255049ecc6315b85ca4461cdcc5"
+  },
+  {
+    "path": "sources/2011-us-performance-parts.pdf",
+    "bytes": 3527543,
+    "sha256": "9acf2599aed1070f454dcdaa74d6be469d38086a01e76941434eb1c2807ff7aa"
+  },
+  {
+    "path": "sources/aspen-white-dealer-records.pdf",
+    "bytes": 5048973,
+    "sha256": "cacf86c44c40c30232f099ec06c8cc63f5edd060f86f9bfa0dcae4333d94b9ef"
+  },
+  {
+    "path": "sources/brochure-page-24.png",
+    "bytes": 273973,
+    "sha256": "5ef080234fef9528de0b38e4113cd2758b2f864364e08adad39e3285f044130a"
+  },
+  {
+    "path": "sources/brochure-page-26.png",
+    "bytes": 270043,
+    "sha256": "53083eba6afd038f1ca49ac5d355f8382d6661255d651b94ec8e52094874f703"
+  },
+  {
+    "path": "sources/brochure-page-27.png",
+    "bytes": 316070,
+    "sha256": "6df2bb5ff47b1abb3bd5af888da2227b8d99441c75f87d043e7273fd18c8b59c"
+  },
+  {
+    "path": "sources/dealer-records-contact-sheet.jpg",
+    "bytes": 230729,
+    "sha256": "3d22fb4ccb389c6cdbeefd97f0326a11886b0ed4006754513109ea9442ac48c6"
+  },
+  {
+    "path": "sources/dealer-records-page-1.png",
+    "bytes": 608450,
+    "sha256": "a7f8780295ff56f55d94cc1dd62d8807c03c2d2effd0e3d36de91f6b1bc5530c"
+  },
+  {
+    "path": "sources/dealer-records-page-2.png",
+    "bytes": 859753,
+    "sha256": "2cd4fca29fd794456653ce644366ba823f12840ae6a12a91d69a96a5a921ce99"
+  },
+  {
+    "path": "sources/dealer-records-page-25.png",
+    "bytes": 637684,
+    "sha256": "0eb8a5c786cea97e2a9dd130ec1fc1bea1baa4bc0ac4fc9b580fe8474663d536"
+  },
+  {
+    "path": "sources/dealer-records-page-26.png",
+    "bytes": 562253,
+    "sha256": "e69875489b015db971c9492b711519efdf18d80bdc31af6e009c707769f99088"
+  },
+  {
+    "path": "sources/dealer-records-page-27.png",
+    "bytes": 1068474,
+    "sha256": "10815ad9eea38fe68793b35bcad1ad49be907275a946969b9706812f9089f119"
+  },
+  {
+    "path": "sources/dealer-records-page-28.png",
+    "bytes": 346280,
+    "sha256": "6eff6902471d242b8af5a3f5eb38983979d7b459cfdd2137c3aba3fd50d34385"
+  },
+  {
+    "path": "sources/dealer-records-page-3.png",
+    "bytes": 847089,
+    "sha256": "2008dc5a486a5aeb59769193133068f59ba77bba8cbea0733f9a9276e93ae9d3"
+  },
+  {
+    "path": "sources/global-catalog-contact-sheet.jpg",
+    "bytes": 110430,
+    "sha256": "936533e2324271e8726d7ff2f4e08c4d2bed6e57be8a7cd465d3c467857a254e"
+  },
+  {
+    "path": "sources/global-page-12.png",
+    "bytes": 2106090,
+    "sha256": "94b0d0900b98683b5a4df5192e74f6ed8effcc7a2a70b05840a278a1b4de1822"
+  },
+  {
+    "path": "sources/global-page-13.png",
+    "bytes": 2207529,
+    "sha256": "504869184d4519a06b144833d7c3db68ff7355a9c6c8fce91783ce7c1d6108d5"
+  },
+  {
+    "path": "sources/global-page-14.png",
+    "bytes": 2271053,
+    "sha256": "71794989b227d9ce45e27ca6162ec5818a6b2539dcbe0f20ccf95507518bd12e"
+  },
+  {
+    "path": "sources/period-booklet-covers-1.png",
+    "bytes": 774809,
+    "sha256": "584faa7d8bfb8248da9f00371efcdec920c384841a7e847cc3c472a52d4b504f"
+  },
+  {
+    "path": "sources/period-booklet-covers-2.png",
+    "bytes": 893670,
+    "sha256": "4dfe17690ff1bb7fc988edf5e41b6316b768284ad295b8d14d23b0a5068a14b3"
+  },
+  {
+    "path": "sources/period-booklet-covers.pdf",
+    "bytes": 698797,
+    "sha256": "38db0f59c03e1732db220f2db5e63129027186cb51623414cdc59b94a9edd280"
+  },
+  {
+    "path": "sources/sticker-candidate-129-1.jpg",
+    "bytes": 838198,
+    "sha256": "d5dcaa27055a143396f7c1a2c6937d6c10b60e10b14ef378a6e7802ee274b1de"
+  },
+  {
+    "path": "sources/sticker-candidate-39-1.jpg",
+    "bytes": 445202,
+    "sha256": "6f864c02d84c07c96a53aa6f596b7005f0e2fa9542fb8abe6185a7300597ed2e"
+  },
+  {
+    "path": "sources/sticker-candidate-39-2.jpg",
+    "bytes": 407415,
+    "sha256": "2c1b217df81a1cce4a90664d6e105a8811faaa7c7570878ae475b15a664f9e36"
+  },
+  {
+    "path": "sources/sticker-candidate-73-2.jpg",
+    "bytes": 629752,
+    "sha256": "64f1579052784183ed778e8195489fd929dbc23f70c77a61ae36fc453b4465dc"
+  },
+  {
+    "path": "sources/sticker-candidates.json",
+    "bytes": 3349,
+    "sha256": "2bfb0c5c5b6362f0211296b42ed14c1bc4132651de4e8a097b18b0de6596c036"
+  },
+  {
+    "path": "sources/subaru-techtips-index-through-2019.pdf",
+    "bytes": 440851,
+    "sha256": "92993a007e295926684d48be3845987c3248601c43557eea2bd89c19d2fd8862"
+  },
+  {
+    "path": "sources/window-sticker-aspen-white-1.png",
+    "bytes": 3408146,
+    "sha256": "40d8143bba5c1673cda882a5ff3a79059d0447af90689352bcfe526c89bdfbd7"
+  },
+  {
+    "path": "sources/window-sticker-aspen-white.pdf",
+    "bytes": 1446118,
+    "sha256": "74cdfba400e21b46652e236f0bed58a87227715a586c82eba04dca067a1a8679"
+  },
+  {
+    "path": "sources/window-sticker-blue.jpg",
+    "bytes": 725489,
+    "sha256": "79445b23a270ce02f655e326b1e086aea4f53517cd5cc1df474306add62bd1fd"
+  },
+  {
+    "path": "sources/window-sticker-crystal-gray-5jj.jpg",
+    "bytes": 794236,
+    "sha256": "a687832fd54c95755ba839973541a283477d2d87bf44122ff37b6690f6432653"
+  }
+]

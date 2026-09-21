@@ -1,0 +1,1574 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-20",
+  "scope": {
+    "market": "United States",
+    "model_year": 2005,
+    "model": "Subaru Impreza WRX STi",
+    "currency": "USD",
+    "interpretation": "Historically available new-car choices and genuine dealer accessories; overseas and later-fitment leads retained separately.",
+    "completeness": "Deep evidence-based catalog, not a certified exhaustive factory order guide. Unresolved prices remain null."
+  },
+  "sources": {
+    "S01": {
+      "title": "Subaru of America: 2005 Impreza brochure",
+      "url": "https://www.auto-brochures.com/makes/Subaru/Impreza/Subaru_US%20Impreza_2005.pdf",
+      "kind": "primary_manufacturer_brochure_mirror",
+      "evidentiary_use": "PDF pp.24–27: colors, specifications, trim applicability. Generic accessories pp.20–22 require separate STI fitment verification.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/2005-us-impreza-brochure.pdf"
+    },
+    "S02": {
+      "title": "Joe Spitz / Cars101: 2005 WRX and STi",
+      "url": "https://www.cars101.com/subaru/impreza/wrxsti2005.html",
+      "kind": "secondary_period_pricing_compilation",
+      "evidentiary_use": "Order codes, price-change months, accessory table. Contains transcription and applicability errors; corroboration recorded per item.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S03": {
+      "title": "Subaru announces 2005 pricing, June 1, 2004",
+      "url": "https://www.theautochannel.com/news/2004/06/01/198066.html",
+      "kind": "primary_manufacturer_press_release_republication",
+      "evidentiary_use": "Launch MSRP, delivery charge and new standard equipment. Retrieved directly when web reader failed.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S04": {
+      "title": "Consumer Guide: 2002–07 Subaru Impreza, 2005 prices",
+      "url": "https://consumerguide.com/used/2002-07-subaru-impreza/",
+      "kind": "secondary_historical_price_table",
+      "evidentiary_use": "Independent accessory-price cross-check; internally inconsistent gauge description and stale base-price date.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S05": {
+      "title": "Crystal Gray original window sticker, VIN ending 504987",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-113/",
+      "kind": "primary_window_sticker_in_auction_gallery",
+      "evidentiary_use": "Visually transcribed: $32,195 base, $41 locks, $128 armrest, $415 PEG2B, $575 delivery, $33,354 total.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/window-sticker-crystal-gray-5jj.jpg"
+    },
+    "S06": {
+      "title": "Autoweek: 2005 Subaru Impreza WRX STi, September 19, 2004",
+      "url": "https://www.autoweek.com/news/a2090076/2005-subaru-impreza-wrx-sti/",
+      "kind": "period_firsthand_magazine_review",
+      "evidentiary_use": "Corroborates $928 performance package and titanium knob.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S07": {
+      "title": "Car and Driver: Evo MR versus STi, February 1, 2005",
+      "url": "https://www.caranddriver.com/reviews/comparison-test/a15387088/2005-mitsubishi-lancer-evolution-mr-edition-vs-subaru-impreza-wrx-sti-comparison-tests/",
+      "kind": "period_firsthand_magazine_comparison",
+      "evidentiary_use": "Cross-checks MY2005 changes; tested-car price is not a universal option tariff.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S08": {
+      "title": "Dan Jedlicka / DriveChicago: Exotic sports car acceleration",
+      "url": "https://drivechicago.com/reviews/article/1203/exotic-sports-car-acceleration",
+      "kind": "period_firsthand_road_test",
+      "evidentiary_use": "Additional $928 package corroboration.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S09": {
+      "title": "Carey Russ STi road-test specification table, republished March 18, 2009",
+      "url": "https://www.theautochannel.com/news/2009/03/18/453770.html",
+      "kind": "period_road_test_later_republication",
+      "evidentiary_use": "2005-car table lists $32,445 base and $33,890 total; accessory prices differ from stickers. Related June 23, 2005 review: /news/2005/06/23/134049.html.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S10": {
+      "title": "Subaru End Wrench, May 2005, Number 30",
+      "url": "https://automotivetechinfo.com/wp-content/uploads/2005/05/Subaru-EndWrench-May-2005.pdf",
+      "kind": "primary_manufacturer_service_magazine",
+      "evidentiary_use": "PDF p.7 announces a new STI SPT cat-back exhaust. No price or part number. Read via web; direct file download returned HTTP 403.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S11": {
+      "title": "Fuji Heavy Industries: Impreza accessories, printed August 2004",
+      "url": "https://www.subaru.ee/media/uf2lr0rf/impreza2005en.pdf",
+      "kind": "primary_global_accessory_catalog",
+      "evidentiary_use": "Visually inspected PDF pp.13–14 application matrix; print code 05AC 47E 2004.08. Regional applicability is not U.S. availability.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/2005-global-accessories.pdf"
+    },
+    "S12": {
+      "title": "Subaru Genuine Performance Parts, later catalog covering 2012",
+      "url": "https://www.auto-brochures.com/makes/Subaru/Accessories/Subaru_US%20Performance%20Parts_2011.pdf",
+      "kind": "primary_later_manufacturer_catalog",
+      "evidentiary_use": "Filename says 2011; content reaches 2012. Useful for fitment and supersessions, not 2005 introduction dates.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/2011-us-performance-parts.pdf"
+    },
+    "S13": {
+      "title": "ImportArchive: U.S. Impreza paint archive",
+      "url": "https://importarchive.com/subaru/impreza/2002-2007",
+      "kind": "secondary_paint_archive",
+      "evidentiary_use": "Paint-code cross-reference only; STI color availability comes from S01.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S14": {
+      "title": "OEM STI gauge-pack kit and housing",
+      "url": "https://www.subarupartsdeal.com/parts/subaru-accessories_perf_gauge_pack_turbo_boost_oil_temp_volts_3_with_housing-kith5010fe056.html",
+      "kind": "current_oem_parts_retail_catalog",
+      "evidentiary_use": "H5010FE056 plus H0010FE920OE; current prices are not period MSRP.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S15": {
+      "title": "OEM HomeLink mirror with adapter",
+      "url": "https://www.subarupartsdeal.com/parts/subaru-accessories_auto_dimming_mirror_compass_w_homelink_with_adapter-kith501sag010.html",
+      "kind": "current_oem_parts_retail_catalog",
+      "evidentiary_use": "H501SAG010 plus H501SSA040; verify revision for historical visual fidelity.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S16": {
+      "title": "OEM STI short-throw shifter listings",
+      "url": "https://www.subarupartsdeal.com/accessories/subaru-impreza_sti-performance_short_throw_shifter.html",
+      "kind": "current_oem_parts_retail_catalog",
+      "evidentiary_use": "C1010FE001 superseded by C1010FE004; current price not historic MSRP.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S17": {
+      "title": "OEM fog kits and colored surrounds",
+      "url": "https://www.subarupartsdeal.com/accessories/subaru-impreza_sti-fog_light.html",
+      "kind": "current_oem_parts_retail_catalog",
+      "evidentiary_use": "H4510FE020 with surrounds; catalog erroneously suggests unavailable STI paint colors and has a mismatched silver/white component row. Do not import automatically.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S18": {
+      "title": "Subaru Canada: 2005 Impreza WRX STi specifications",
+      "url": "https://www.subaru.ca/Content/7907/media/en-ca/download/2005ImprezaWRXSTi.pdf",
+      "kind": "primary_other_market_specification",
+      "evidentiary_use": "Confirms Canadian block-heater option; C$47,995 is Canadian and must never enter U.S. pricing.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S19": {
+      "title": "Obsidian Black original sticker, VIN ending 512251",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-129/",
+      "kind": "primary_window_sticker_in_auction_gallery",
+      "evidentiary_use": "Visually transcribed: $32,295 base, $449 shifter, $310 boost, $41 locks, $80 mats, $575 delivery, $33,750 total.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/sticker-candidate-129-1.jpg"
+    },
+    "S20": {
+      "title": "Obsidian Black original sticker, VIN ending 510972",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-73/",
+      "kind": "primary_window_sticker_in_auction_gallery",
+      "evidentiary_use": "Visually transcribed: $32,195 base, $445 shifter, $41 locks, $128 armrest, $415 PEG2B, $80 mats, $575 delivery, $33,879 total.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/sticker-candidate-73-2.jpg"
+    },
+    "S21": {
+      "title": "Platinum Silver original sticker, VIN ending 510361",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-39/",
+      "kind": "primary_window_sticker_in_auction_gallery",
+      "evidentiary_use": "Visually transcribed: $32,295 base, $128 armrest, $928 performance package, $575 delivery, $33,926 total. Package contents explicitly titanium 6MT knob, boost gauge, 6MT shifter. Package suffix visually ambiguous.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/sticker-candidate-39-2.jpg"
+    },
+    "S22": {
+      "title": "WR Blue original sticker, VIN ending 501349",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-128-2/",
+      "kind": "primary_window_sticker_in_auction_gallery",
+      "evidentiary_use": "Visually transcribed: $32,195 base, $232 alarm, $740 gauge pack, $41 locks, $128 armrest, $575 delivery, $33,911 total.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/window-sticker-blue.jpg"
+    },
+    "S23": {
+      "title": "LBI Limited: Aspen White 2005 STi, VIN ending 500521",
+      "url": "https://lbilimited.com/offerings/2005-subaru-impreza-wrx-sti/",
+      "kind": "firsthand_dealer_vehicle_documentation",
+      "evidentiary_use": "Useful original exterior/interior gallery and accessory history. Seller summary mislabels paint Alpine White; sticker says Aspen White. Wheels were swapped by dealer.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S24": {
+      "title": "Aspen White original window sticker, VIN ending 500521",
+      "url": "https://lbi-limited.imgix.net/2024/05/Window-Sticker-0521.pdf",
+      "kind": "primary_window_sticker_scan",
+      "evidentiary_use": "Visually transcribed: $32,195 base, $439 shifter, $232 alarm, $41 locks, $575 delivery, $33,482 total.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/window-sticker-aspen-white.pdf"
+    },
+    "S25": {
+      "title": "Dealer historical repair-order printouts, VIN ending 500521",
+      "url": "https://lbi-limited.imgix.net/2024/05/Prior-Owner-Service-Records-0521-1.pdf",
+      "kind": "primary_dealer_records_reprinted_2024",
+      "evidentiary_use": "PDF p.27: PDI at 15 miles includes wheel swap, mirror and mats; p.26: subwoofer installation at 725 miles. Dates/part identities obscured; internal accounting is not national MSRP.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/aspen-white-dealer-records.pdf"
+    },
+    "S26": {
+      "title": "Photographs of period booklets accompanying white car",
+      "url": "https://lbi-limited.imgix.net/2024/05/Period-Brochures-0521.pdf",
+      "kind": "primary_booklet_cover_photographs",
+      "evidentiary_use": "Existence of separate U.S. 2005 accessories booklet established; these are covers, not a complete scanned application/price list.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/period-booklet-covers.pdf"
+    },
+    "S27": {
+      "title": "Subaru TechTIPS locator index, updated through June 2019",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10163011-9999.pdf",
+      "kind": "primary_manufacturer_index_nhtsa_host",
+      "evidentiary_use": "PDF p.43 points to period mirror, subwoofer, heater and STI accessory bulletins. An index is not evidence of their full contents.",
+      "accessed": "2026-09-20",
+      "local_file": "sources/subaru-techtips-index-through-2019.pdf"
+    },
+    "S28": {
+      "title": "WR Blue 2005 STi gallery, BaT lot 67,553",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-67/",
+      "kind": "vehicle_photo_reference",
+      "evidentiary_use": "Blue paint/gold BBS reference; aftermarket mudflaps, stereo and mats must be excluded from stock render.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S29": {
+      "title": "Platinum Silver original-owner STi gallery, BaT lot 1,325",
+      "url": "https://bringatrailer.com/listing/2005-subaru-sti/",
+      "kind": "vehicle_photo_reference",
+      "evidentiary_use": "Useful stock body reference; later hitch and repaired paint are disclosed.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S30": {
+      "title": "Obsidian Black STi gallery, BaT lot 21,163",
+      "url": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-20/",
+      "kind": "vehicle_photo_reference",
+      "evidentiary_use": "Black paint/silver BBS reference; requires per-image review before use as stock asset.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S31": {
+      "title": "Flatirons Tuning: genuine Subaru block heater",
+      "url": "https://www.flatironstuning.com/a0910as100",
+      "kind": "current_oem_parts_retail_catalog",
+      "evidentiary_use": "A0910AS100/101 family with older supersessions; physical STI fitment corroboration only, not 2005 retail price.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S32": {
+      "title": "NASIOC: 2005 owner accessory discussion, April 2006",
+      "url": "https://forums.nasioc.com/forums/showthread.php?t=993035",
+      "kind": "period_owner_account",
+      "evidentiary_use": "Subwoofer and mirror lead; owner language does not establish factory orderability.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    },
+    "S33": {
+      "title": "NASIOC: SPT exhaust discussion, August 2005",
+      "url": "https://forums.nasioc.com/forums/showthread.php?t=829766",
+      "kind": "period_owner_discussion",
+      "evidentiary_use": "Temporal cross-check only; muffler versus cat-back confusion prevents a reliable national STI price.",
+      "accessed": "2026-09-20",
+      "local_file": null
+    }
+  },
+  "pricing_epochs": [
+    {
+      "id": "launch",
+      "base_msrp": 32195,
+      "destination": 575,
+      "total": 32770,
+      "period": "Model launch in 2004",
+      "source_ids": [
+        "S03",
+        "S24"
+      ]
+    },
+    {
+      "id": "september_2004",
+      "base_msrp": 32295,
+      "destination": 575,
+      "total": 32870,
+      "period": "Dealer deliveries from September 2004 reported by S02",
+      "source_ids": [
+        "S02",
+        "S19",
+        "S21"
+      ],
+      "date_precision": "month_reported_not_exact_day"
+    },
+    {
+      "id": "may_2005",
+      "base_msrp": 32445,
+      "destination": 575,
+      "total": 33020,
+      "period": "Dealer deliveries from May 2005 reported by S02",
+      "source_ids": [
+        "S02",
+        "S09"
+      ],
+      "date_precision": "month_reported_not_exact_day"
+    }
+  ],
+  "destination_rules": {
+    "continental_us": 575,
+    "alaska": 725,
+    "source_ids": [
+      "S03"
+    ],
+    "other_regional_variations": "Not reconstructed; do not apply a guessed national dealer fee."
+  },
+  "factory_configuration": {
+    "body": "4-door sedan",
+    "engine": "2.5-liter turbocharged flat-four",
+    "transmission": "6-speed manual",
+    "interior": "Blue perforated Ecsaine with black trim",
+    "source_ids": [
+      "S01",
+      "S03"
+    ],
+    "colors": [
+      {
+        "name": "Aspen White",
+        "paint_code": "51E",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S01",
+          "S13"
+        ]
+      },
+      {
+        "name": "Crystal Gray Metallic",
+        "paint_code": "48W",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S01",
+          "S13"
+        ]
+      },
+      {
+        "name": "Obsidian Black Pearl",
+        "paint_code": "32J",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S01",
+          "S13"
+        ]
+      },
+      {
+        "name": "Platinum Silver Metallic",
+        "paint_code": "01G",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S01",
+          "S13"
+        ]
+      },
+      {
+        "name": "WR Blue Pearl",
+        "paint_code": "02C",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S01",
+          "S13"
+        ]
+      }
+    ],
+    "wheels": [
+      {
+        "name": "Gold BBS 17×8",
+        "model_code": "5JI",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S02",
+          "S03",
+          "S22"
+        ]
+      },
+      {
+        "name": "Silver BBS 17×8",
+        "model_code": "5JJ",
+        "upcharge_usd": 0,
+        "source_ids": [
+          "S02",
+          "S03",
+          "S24"
+        ]
+      }
+    ],
+    "paint_wheel_combinations": 10,
+    "standard_equipment": [
+      "300 hp / 300 lb-ft",
+      "DCCD AWD",
+      "Brembo brakes",
+      "HID low beams",
+      "Large rear wing",
+      "Intercooler water spray",
+      "Automatic climate control",
+      "140W six-disc/six-speaker stereo",
+      "Engine immobilizer",
+      "Remote keyless entry"
+    ],
+    "standard_equipment_sources": [
+      "S03",
+      "S24"
+    ]
+  },
+  "options": [
+    {
+      "id": "alarm",
+      "name": "Security system upgrade kit, STI",
+      "category": "comfort_security",
+      "reference_price_usd": 232,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S22",
+        "S24",
+        "S04"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 232,
+          "source_ids": [
+            "S22",
+            "S24"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        }
+      ],
+      "note": "Optional alarm; factory immobilizer and remote keyless entry are already standard."
+    },
+    {
+      "id": "armrest",
+      "name": "Center armrest extension, black",
+      "category": "comfort_security",
+      "reference_price_usd": 128,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S05",
+        "S20",
+        "S21"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 128,
+          "source_ids": [
+            "S05",
+            "S20",
+            "S21"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        }
+      ],
+      "order_code": "K5B",
+      "order_code_source": "S02"
+    },
+    {
+      "id": "mirror_compass",
+      "name": "Auto-dimming mirror with compass",
+      "category": "comfort_security",
+      "reference_price_usd": 183,
+      "price_confidence": "medium_high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 183,
+          "source_ids": [
+            "S04"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 178.43,
+          "source_ids": [
+            "S25"
+          ],
+          "basis": "dealer_internal_record",
+          "note": "PDI line amount; not national MSRP, not confirmed customer charge."
+        }
+      ],
+      "order_code": "KYE",
+      "order_code_source": "S02",
+      "exclusive_group": "mirror",
+      "note": "Also independently consistent with $415 package less $232 alarm."
+    },
+    {
+      "id": "mirror_homelink",
+      "name": "Auto-dimming mirror with compass and HomeLink",
+      "category": "comfort_security",
+      "reference_price_usd": 268,
+      "price_confidence": "medium",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S02",
+        "S15"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 268,
+          "source_ids": [
+            "S02"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        }
+      ],
+      "order_code": "K5I",
+      "order_code_source": "S02",
+      "exclusive_group": "mirror",
+      "first_reported_available_month": "2004-10",
+      "date_source": "S02",
+      "parts": [
+        {
+          "number": "H501SAG010",
+          "role": "mirror",
+          "evidence": "S15"
+        },
+        {
+          "number": "H501SSA040",
+          "role": "adapter",
+          "evidence": "S15"
+        }
+      ],
+      "note": "Later parts catalog verifies kit relationship, not original revision or introduction day."
+    },
+    {
+      "id": "short_shifter",
+      "name": "STI six-speed short-throw shifter",
+      "category": "performance",
+      "reference_price_usd": 439,
+      "price_confidence": "high_for_observed_launch_price",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S24",
+        "S19",
+        "S20",
+        "S04"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 439,
+          "source_ids": [
+            "S24",
+            "S04"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 445,
+          "source_ids": [
+            "S20"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 449,
+          "source_ids": [
+            "S19"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 395,
+          "source_ids": [
+            "S09"
+          ],
+          "basis": "road_test_listed_option_price",
+          "note": "Installation basis unspecified."
+        }
+      ],
+      "order_code": "T5B",
+      "order_code_source": "S02",
+      "parts": [
+        {
+          "number": "C1010FE001",
+          "role": "period six-speed assembly",
+          "evidence": "S11"
+        },
+        {
+          "number": "C1010FE004",
+          "role": "later supersession",
+          "evidence": "S16"
+        }
+      ],
+      "note": "All three sticker prices are genuine observations; no exact change schedule established. Reference uses the launch-era white-car sticker."
+    },
+    {
+      "id": "boost_gauge",
+      "name": "STI steering-column turbo-boost gauge",
+      "category": "performance",
+      "reference_price_usd": 310,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S19",
+        "S04"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 310,
+          "source_ids": [
+            "S19",
+            "S04"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 230,
+          "source_ids": [
+            "S09"
+          ],
+          "basis": "road_test_listed_option_price",
+          "note": "Do not substitute for sticker MSRP."
+        }
+      ],
+      "order_code": "T4B",
+      "order_code_source": "S02",
+      "exclusive_group": "gauge_system",
+      "parts": [
+        {
+          "number": "H5010FE055",
+          "role": "STI assembly in later catalog",
+          "evidence": "S12"
+        }
+      ]
+    },
+    {
+      "id": "titanium_knob",
+      "name": "STI titanium shift knob, six-speed",
+      "category": "performance",
+      "reference_price_usd": 179,
+      "price_confidence": "medium_derived_and_corroborated",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S21",
+        "S06",
+        "S11"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 159,
+          "source_ids": [
+            "S02"
+          ],
+          "basis": "disputed_guide_price",
+          "note": "Guide shows invoice higher than retail; possible transcription error."
+        },
+        {
+          "amount_usd": 170,
+          "source_ids": [
+            "S09"
+          ],
+          "basis": "road_test_listed_option_price",
+          "note": "Unspecified installed/parts basis."
+        },
+        {
+          "amount_usd": 179,
+          "source_ids": [
+            "S21",
+            "S06"
+          ],
+          "basis": "performance_package_arithmetic",
+          "note": "$928 package less documented $439 shifter and $310 boost gauge equals $179; other 2005 equipment groups are exact sums of their components."
+        }
+      ],
+      "order_code": "J5D",
+      "order_code_source": "S02",
+      "parts": [
+        {
+          "number": "C1010FE100",
+          "role": "six-speed titanium knob",
+          "evidence": "S11"
+        }
+      ],
+      "note": "$179 is derived from the documented $928 package less the $439 shifter and $310 boost gauge. Other 2005 equipment groups are exact component-price sums, supporting the same pricing structure here."
+    },
+    {
+      "id": "gauge_pack",
+      "name": "STI three-gauge performance pack with housing",
+      "category": "performance",
+      "reference_price_usd": 740,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S22",
+        "S14"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 740,
+          "source_ids": [
+            "S22",
+            "S04"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 725,
+          "source_ids": [
+            "S02"
+          ],
+          "basis": "conflicting_generic_guide_price",
+          "note": "Use STI sticker-specific $740 instead."
+        }
+      ],
+      "exclusive_group": "gauge_system",
+      "parts": [
+        {
+          "number": "H5010FE056",
+          "role": "STI gauge pack, later catalog",
+          "evidence": "S14"
+        },
+        {
+          "number": "H0010FE920OE",
+          "role": "required housing",
+          "evidence": "S14"
+        }
+      ],
+      "note": "Boost, oil temperature, voltage. Replaces dashboard clock; do not use Legacy oil-pressure pack or non-turbo vacuum pack."
+    },
+    {
+      "id": "floor_mats",
+      "name": "Blue carpeted STI floor mats",
+      "category": "interior",
+      "reference_price_usd": 80,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 80,
+          "source_ids": [
+            "S19",
+            "S20"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        },
+        {
+          "amount_usd": 75,
+          "source_ids": [
+            "S09"
+          ],
+          "basis": "road_test_listed_option_price",
+          "note": ""
+        }
+      ],
+      "order_code": "B5B",
+      "order_code_source": "S02",
+      "first_reported_available_month": "2004-10",
+      "date_source": "S02",
+      "parts": [
+        {
+          "number": "J5010SS700",
+          "role": "blue/no-logo mats in later catalog; original B5B linkage not fully proved",
+          "evidence": "S12"
+        }
+      ],
+      "note": "Loose mats are not standard. Dealer fitted unspecified carpet mats on one early car; that does not refute later blue B5B introduction."
+    },
+    {
+      "id": "wheel_locks",
+      "name": "Wheel lock set",
+      "category": "exterior",
+      "reference_price_usd": 41,
+      "price_confidence": "high",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S05",
+        "S19",
+        "S20",
+        "S22",
+        "S24"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 41,
+          "source_ids": [
+            "S05",
+            "S19",
+            "S20",
+            "S22",
+            "S24"
+          ],
+          "basis": "historical_msrp",
+          "note": ""
+        }
+      ],
+      "order_code": "MSV",
+      "order_code_source": "S02"
+    },
+    {
+      "id": "hood_protector",
+      "name": "Hood protector / deflector",
+      "category": "exterior",
+      "reference_price_usd": 76,
+      "price_confidence": "medium",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S02"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 76,
+          "source_ids": [
+            "S02"
+          ],
+          "basis": "historical_price_not_installed",
+          "note": ""
+        }
+      ],
+      "installation_included": false,
+      "note": "Do not conflate the acrylic deflector with a soft front-end cover."
+    },
+    {
+      "id": "fog_lights",
+      "name": "Fog lamp kit",
+      "category": "exterior",
+      "reference_price_usd": 354,
+      "price_confidence": "medium_parts_price",
+      "availability_status": "confirmed_us_model_year",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S17"
+      ],
+      "price_observations": [
+        {
+          "amount_usd": 354,
+          "source_ids": [
+            "S02"
+          ],
+          "basis": "historical_parts_list_price",
+          "note": "Installation excluded; exact contents of priced kit not recovered."
+        }
+      ],
+      "installation_included": false,
+      "parts": [
+        {
+          "number": "H4510FE020",
+          "role": "U.S. kit candidate from current catalog",
+          "evidence": "S17"
+        }
+      ],
+      "note": "Requires appropriate surrounds, switch/wiring/mounting verification; replaces closed STI covers. Current fitment page has errors; do not adopt its entire BOM."
+    },
+    {
+      "id": "spt_catback",
+      "name": "SPT STI cat-back exhaust",
+      "category": "dealer_performance",
+      "reference_price_usd": null,
+      "price_confidence": "unresolved_price",
+      "availability_status": "confirmed_us_by_may_2005",
+      "source_ids": [
+        "S10",
+        "S33"
+      ],
+      "price_observations": [],
+      "first_confirmed_by_month": "2005-05",
+      "parts": [
+        {
+          "number": "SOA8377900",
+          "role": "later compatible cat-back; 2005 introduction SKU not proved",
+          "evidence": "S12"
+        }
+      ],
+      "note": "Official May 2005 launch announcement. Do not assign generic WRX $449 exhaust or $375 muffler prices to this item."
+    }
+  ],
+  "packages": [
+    {
+      "id": "peg_2b",
+      "name": "Popular Equipment Group 2B",
+      "reference_price_usd": 415,
+      "source_ids": [
+        "S05",
+        "S20"
+      ],
+      "price_confidence": "high",
+      "includes": [
+        "alarm",
+        "mirror_compass"
+      ],
+      "exclusive_group": "convenience_package"
+    },
+    {
+      "id": "peg_homelink",
+      "name": "Popular Equipment Group with HomeLink",
+      "reference_price_usd": 500,
+      "source_ids": [
+        "S02"
+      ],
+      "price_confidence": "medium",
+      "includes": [
+        "alarm",
+        "mirror_homelink"
+      ],
+      "exclusive_group": "convenience_package",
+      "order_label_status": "Guide combines 2C/2D; precise STI suffix not independently confirmed.",
+      "first_reported_available_month": "2004-10"
+    },
+    {
+      "id": "performance_package",
+      "name": "STI Performance Group",
+      "reference_price_usd": 928,
+      "source_ids": [
+        "S21",
+        "S06",
+        "S04",
+        "S08"
+      ],
+      "price_confidence": "high",
+      "includes": [
+        "short_shifter",
+        "boost_gauge",
+        "titanium_knob"
+      ],
+      "conflicts_with": [
+        "gauge_pack"
+      ],
+      "order_label_status": "Cars101 calls it 2B. Sticker suffix is visually ambiguous; content and price are clear."
+    }
+  ],
+  "unresolved_us_candidates": [
+    {
+      "id": "engine_block_heater",
+      "name": "Engine block heater",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S18",
+        "S31"
+      ],
+      "unverified_price_lead_usd": 29,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Plausible U.S. dealer accessory; generic U.S. pricing cell, Canadian period option and modern STI fitment. Original U.S. kit/price basis still incomplete."
+    },
+    {
+      "id": "battery_warmer",
+      "name": "Battery warmer",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "unverified_price_lead_usd": 30,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Period generic Impreza accessory; exact STI kit and pricing require confirmation."
+    },
+    {
+      "id": "car_cover",
+      "name": "Car cover",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "unverified_price_lead_usd": 100,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Verify STI tall-wing fitment; generic sedan cover is insufficient."
+    },
+    {
+      "id": "cover_bag",
+      "name": "Car-cover storage bag",
+      "source_ids": [
+        "S02"
+      ],
+      "unverified_price_lead_usd": 10,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Accessory to cover; exact contemporary SKU missing."
+    },
+    {
+      "id": "cigarette_lighter",
+      "name": "Cigarette lighter",
+      "source_ids": [
+        "S02"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Listed generically; no reliable standalone price/SKU recovered."
+    },
+    {
+      "id": "subwoofer",
+      "name": "Subwoofer / amplifier",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S25",
+        "S32"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Dealer installation at 725 miles documented. OEM identity not explicit in record. Do not treat WRX D2B $273 as confirmed STI order price."
+    },
+    {
+      "id": "audio_upgrades",
+      "name": "Speaker/tweeter upgrades",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Six upgraded speakers already standard; no separate U.S. STI upgrade tariff established."
+    },
+    {
+      "id": "front_end_cover",
+      "name": "Full or hood-only soft front-end cover",
+      "source_ids": [
+        "S01"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Generic brochure only; exact STI bumper/scoop coverage unproved."
+    },
+    {
+      "id": "roof_carriers",
+      "name": "Sedan crossbars, baskets, ski/bike/roof-box attachments",
+      "source_ids": [
+        "S01",
+        "S11"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Global sedan rack shown applicable; U.S. U2A is wagon-only. Need U.S. sedan base, fitting kit, rated load and historic prices."
+    },
+    {
+      "id": "splash_guards",
+      "name": "Subaru splash guards",
+      "source_ids": [
+        "S01",
+        "S11"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Generic U.S. pictures do not prove STI fitment; global application matrix rejects listed front/rear sets for STI."
+    },
+    {
+      "id": "parking_brake_handle",
+      "name": "Carbon-fiber parking-brake handle",
+      "source_ids": [
+        "S01",
+        "S12"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Later catalog dates handle only through 2004; hold out of 2005 builder."
+    },
+    {
+      "id": "spt_intake",
+      "name": "SPT intake and heat shield",
+      "source_ids": [
+        "S12",
+        "S23"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Later fitment and 2009 installation on white car do not establish 2005 availability."
+    },
+    {
+      "id": "spt_bracing",
+      "name": "SPT chassis/strut bracing",
+      "source_ids": [
+        "S12"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Later catalog fitment only; period introduction and prices unproved."
+    },
+    {
+      "id": "sti_suspension",
+      "name": "STI adjustable struts/springs",
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "2005–07-specific later kit exists. Generic 2005 magazine reference does not identify that kit."
+    },
+    {
+      "id": "sti_mounts_links",
+      "name": "STI mounts, links, bushings and brake hoses",
+      "source_ids": [
+        "S12"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Compatible later catalog parts; do not assume all were offered when the model was new."
+    },
+    {
+      "id": "dealer_services",
+      "name": "Protection treatments / service contracts / dealer conversions",
+      "source_ids": [
+        "S23",
+        "S25"
+      ],
+      "unverified_price_lead_usd": null,
+      "reference_price_usd": null,
+      "builder_enabled": false,
+      "note": "Local transaction choices with no universal model MSRP. Not Subaru factory configuration choices."
+    }
+  ],
+  "other_market_leads": [
+    {
+      "name": "Front under spoiler",
+      "part_number": "E2410FE030##",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Sport grille",
+      "part_number": "J1010FE090##",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Large fog lamps",
+      "part_number": "H4510FE001 + H4518FE050##",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Rear waist spoiler",
+      "part_number": "E7210FE200##",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Sedan visors",
+      "part_number": "E3610FE000",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "RHD strut bar",
+      "part_number": "E4010FE000",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Bumper protectors",
+      "part_number": "J1010SE020",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Side protectors",
+      "part_number": "J1010SE010",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Aluminum six-speed knobs",
+      "part_number": "C1010SE101 / C105EFE100",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Blue shift boot",
+      "part_number": "C105EFE200",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Sedan rack base",
+      "part_number": "E3610SE520",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Sedan cargo tray",
+      "part_number": "J5110SE100",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Sill plates",
+      "part_number": "E1010FE015 / E1010FE005",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "STI carpet mats",
+      "part_number": "J5010SE400 / J5010SE400RH",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "Parking aid",
+      "part_number": "H481ESA002",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    },
+    {
+      "name": "European navigation",
+      "part_number": "H001ESA010",
+      "source_ids": [
+        "S11"
+      ],
+      "builder_enabled": false,
+      "us_price": null,
+      "reason": "Global application only; verify regional notes and U.S. distribution."
+    }
+  ],
+  "later_fitment_leads": [
+    {
+      "name": "STI-specific adjustable suspension",
+      "part_number": "203004S220 / 230 / 240 / 250",
+      "pdf_page": 7,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Front strut brace",
+      "part_number": "SOA3881020",
+      "pdf_page": 6,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Lower chassis brace",
+      "part_number": "SOA8431070",
+      "pdf_page": 6,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Lower arm bar",
+      "part_number": "ST205104S000",
+      "pdf_page": 8,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Trailing links",
+      "part_number": "ST2027055000",
+      "pdf_page": 8,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Front/rear strut mounts",
+      "part_number": "B0310FE000 / B0310FE012",
+      "pdf_page": 9,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Six-speed transmission mount",
+      "part_number": "D1010FE000",
+      "pdf_page": 9,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Pitch mount",
+      "part_number": "D1040FE000",
+      "pdf_page": 9,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Engine mounts",
+      "part_number": "D1010FE110 / D1010FE120",
+      "pdf_page": 9,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "STI brake hoses",
+      "part_number": "ST265504S000",
+      "pdf_page": 12,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    },
+    {
+      "name": "Cowl stays",
+      "part_number": "ST508664S000",
+      "pdf_page": 11,
+      "source_ids": [
+        "S12"
+      ],
+      "builder_enabled": false,
+      "price_2005": null,
+      "reason": "Later fitment does not establish 2005 sale availability."
+    }
+  ],
+  "excluded_as_us_factory_choices": [
+    {
+      "items": [
+        "Automatic transmission",
+        "Wagon body",
+        "Sunroof",
+        "Leather seat package",
+        "Heated seats",
+        "WRX Premium package",
+        "San Remo Red",
+        "Regal Blue Pearl"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "reason": "Not offered on U.S. MY2005 STI."
+    },
+    {
+      "items": [
+        "WRX five-speed knobs/shifter",
+        "U2A wagon roof crossbars",
+        "Wagon cargo net/bin/tray",
+        "Rear differential protector"
+      ],
+      "source_ids": [
+        "S02",
+        "S12"
+      ],
+      "reason": "Wrong model/transmission or explicit STI exclusion."
+    },
+    {
+      "items": [
+        "Spec C",
+        "S203",
+        "WR Limited",
+        "Later STI Limited trim",
+        "Aftermarket tuning packages"
+      ],
+      "source_ids": [],
+      "reason": "Outside the defined U.S. 2005 model scope; no U.S. factory selection established in reviewed primary material."
+    }
+  ],
+  "builder_rules": [
+    "Choose exactly one paint and one wheel finish; paint and wheel upcharges are zero.",
+    "Engine, body, transmission and interior are fixed.",
+    "Choose at most one mirror and one gauge system.",
+    "Package price replaces individual component charges; never double-charge included items.",
+    "Performance package includes column boost gauge and conflicts with three-gauge pack.",
+    "Fog lamps replace closed fog covers; verify matching surrounds and complete kit before visual implementation.",
+    "Display an explicit historical pricing profile; price-change dates are not established to the day.",
+    "Unknown price is null, not zero. An incomplete total must be labeled incomplete.",
+    "Unverified overseas and later-fitment leads must not enter the default U.S. new-car builder.",
+    "Keep parts-only accessory prices and installation costs separate.",
+    "Do not generate hypothetical package discounts or infer titanium standalone MSRP from a package total."
+  ],
+  "sticker_validation_fixtures": [
+    {
+      "id": "gray_504987",
+      "source": "S05",
+      "base": 32195,
+      "lines": {
+        "wheel_locks": 41,
+        "armrest": 128,
+        "peg_2b": 415
+      },
+      "destination": 575,
+      "total": 33354
+    },
+    {
+      "id": "black_512251",
+      "source": "S19",
+      "base": 32295,
+      "lines": {
+        "short_shifter": 449,
+        "boost_gauge": 310,
+        "wheel_locks": 41,
+        "floor_mats": 80
+      },
+      "destination": 575,
+      "total": 33750
+    },
+    {
+      "id": "black_510972",
+      "source": "S20",
+      "base": 32195,
+      "lines": {
+        "short_shifter": 445,
+        "wheel_locks": 41,
+        "armrest": 128,
+        "peg_2b": 415,
+        "floor_mats": 80
+      },
+      "destination": 575,
+      "total": 33879
+    },
+    {
+      "id": "silver_510361",
+      "source": "S21",
+      "base": 32295,
+      "lines": {
+        "armrest": 128,
+        "performance_package": 928
+      },
+      "destination": 575,
+      "total": 33926
+    },
+    {
+      "id": "blue_501349",
+      "source": "S22",
+      "base": 32195,
+      "lines": {
+        "alarm": 232,
+        "gauge_pack": 740,
+        "wheel_locks": 41,
+        "armrest": 128
+      },
+      "destination": 575,
+      "total": 33911
+    },
+    {
+      "id": "white_500521",
+      "source": "S24",
+      "base": 32195,
+      "lines": {
+        "short_shifter": 439,
+        "alarm": 232,
+        "wheel_locks": 41
+      },
+      "destination": 575,
+      "total": 33482
+    }
+  ],
+  "open_questions": [
+    "Obtain full U.S. 2005 accessory booklet/application list and all dated price bulletins; only cover photographs located.",
+    "Confirm standalone titanium-knob installed MSRP and exact performance-package order suffix.",
+    "Date and explain $439/$445/$449 six-speed-shifter price variants.",
+    "Confirm HomeLink package STI suffix and price using an original sticker.",
+    "Find 2005 STI SPT exhaust SKU, parts MSRP and installation basis.",
+    "Resolve complete U.S. fog-kit BOM and whether the $354 lead includes color trim.",
+    "Identify original B5B mat part number, color and logo treatment.",
+    "Establish U.S. dealer applicability and contemporary price for all unresolved candidates.",
+    "Secure consistent stock-car imagery for all 10 paint/wheel combinations; existing galleries are reference material, not a finished matched asset set."
+  ]
+}

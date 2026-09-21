@@ -1,0 +1,106 @@
+- banner "Main Navigation":
+  - link "Skip to main content":
+    - /url: "#main"
+  - link "Subaru Of America Web Site":
+    - /url: /index.html
+    - img "Subaru Of America Web Site"
+  - navigation "Mobile Menu":
+    - list:
+      - link "Menu":
+        - /url: "#"
+  - heading "Build & Price" [level=1]
+- main "main-content":
+  - tablist:
+    - generic "Model":
+      - menuitem "Model":
+        - text: Model
+    - generic "Trim":
+      - menuitem "Trim":
+        - text: Trim
+    - generic "Colors":
+      - menuitem "Colors":
+        - text: Colors
+    - generic "Packages":
+      - menuitem "Packages":
+        - text: Packages
+    - generic "Accessories":
+      - menuitem "Accessories":
+        - text: Accessories
+    - generic "Summary":
+      - menuitem "6. Summary"
+  - 'heading "Step 6: View a summary of your Subaru build" [level=2]'
+  - img "Subaru 2026 Impreza Image"
+  - button "Save Vehicle"
+  - heading "Total" [level=2]
+  - paragraph: $28,228
+  - button "Get Local Price"
+  - button "Financing & Leasing Calculator":
+    - generic: Financing & Leasing Calculator
+  - button "Estimate Trade-In Value":
+    - text: Estimate Trade-In Value
+  - heading "2026 Impreza Sport" [level=3]:
+    - generic: 2026 Impreza
+    - generic: Sport
+  - paragraph: Sport MSRP
+  - paragraph:
+    - text: $26,595*
+    - button "Edit Vehicle Model Selected":
+  - paragraph:
+    - text: Automatic Lineartronic
+    - superscript: ®
+    - text: CVT
+  - paragraph: $0
+  - button "plus-icon View All Sport Feature Details":
+    - img "plus-icon"
+    - text: View All Sport Feature Details
+  - heading "Colors" [level=4]
+  - paragraph:
+    - generic: Exterior Color
+    - generic: Sapphire Blue Pearl
+  - button "Edit Exterior Color Selected":
+  - paragraph:
+    - generic: Interior Color
+    - generic: Black Sport Cloth
+  - button "Edit Interior Color Selected":
+  - heading "Accessories" [level=4]
+  - list:
+    - paragraph:
+      - text: Auto-Dimming Mirror with Compass and HomeLink
+      - superscript: ®
+    - paragraph:
+      - text: $438
+      - button "Edit Auto-Dimming Mirror with Compass and HomeLink® Selected":
+  - heading "Subtotal" [level=4]
+  - paragraph: Price as Configured
+  - paragraph: $27,033*
+  - paragraph:
+    - text: Destination & Delivery
+    - button "Destination and delivery includes handling and inland freight fees and may vary in some states."
+  - paragraph: $1,195
+  - heading "Total $28,228" [level=4]:
+    - generic: Total
+    - generic: $28,228
+  - link "Special Offers":
+    - /url: /shopping-tools/special-offers.html?build=true&model=IMP
+  - link "PDF Icon Download this Page":
+    - /url: /services/vehicles/pdf/buildAndPrice/3WQHu93860WBpehcBAjtL6wemiE12sdljD5A2PSJk/1195
+    - img "PDF Icon"
+    - generic: Download this Page
+  - button "Email this Build":
+    - img "Email Icon"
+    - generic: Email this Build
+  - button "Disclaimer":
+    - button "Disclaimer": Legal Disclaimers
+  - paragraph:
+    - generic: $
+    - generic: "2"
+    - generic: "8"
+    - generic: ","
+    - generic: "2"
+    - generic: "2"
+    - generic: "8"
+  - text: 2026 Impreza
+  - generic: Sport
+  - button "View Local Inventory" [active]
+- generic: • • • • • • •
+- iframe [id="goog_conv_iframe"] [name="google_conversion_frame"]

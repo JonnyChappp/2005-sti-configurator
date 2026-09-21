@@ -1,0 +1,466 @@
+[
+  {
+    "file": "public/assets/accessories/security-system.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-sources/security-upgrade-kit-reference.webp",
+      "references/2005-sti/sources/2005-us-impreza-brochure.pdf"
+    ],
+    "kind": "period-kit reference-guided AI reconstruction",
+    "limitations": "The component layout uses a period Impreza H7110SS100 kit reference; it does not assert an exact readable label for the 2005 H7110SS300/H7110SS400 application.",
+    "rights": "Local reconstruction; reference-photo publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector-blue.webp",
+    "generated_from": [
+      "public/assets/studio/blue-gold.webp",
+      "public/assets/accessories/hood-protector.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "brochure-based AI reconstruction",
+    "paint": "WR Blue Pearl 02C",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector-white.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/hood-protector-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Aspen White 51E",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector-gray.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/hood-protector-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Crystal Gray Metallic 48W",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector-silver.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/hood-protector-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Platinum Silver Metallic 01G",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector-black.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/hood-protector-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Obsidian Black Pearl 32J",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/fog-lights-blue.webp",
+    "generated_from": [
+      "public/assets/studio/blue-gold.webp",
+      "public/assets/accessories/fog-lights.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "brochure-based AI reconstruction",
+    "paint": "WR Blue Pearl 02C",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/fog-lights-white.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/fog-lights-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Aspen White 51E",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/fog-lights-gray.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/fog-lights-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Crystal Gray Metallic 48W",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/fog-lights-silver.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/fog-lights-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Platinum Silver Metallic 01G",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/fog-lights-black.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/paint-aware/fog-lights-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "paint-matched AI variant",
+    "paint": "Obsidian Black Pearl 32J",
+    "limitations": "Accessory installation is reconstructed from a small 2005 brochure illustration; fine mounting details may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/rear-blue.webp",
+    "generated_from": [
+      "references/2005-sti/interior-official/official-overhead.jpg",
+      "references/2005-sti/interior-official/official-cockpit.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "official-brochure-based AI reconstruction",
+    "paint": "WR Blue Pearl 02C",
+    "limitations": "Rear-door camera angle is derived from the official overhead cabin image; it is not an original factory photograph.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/rear-white.webp",
+    "generated_from": [
+      "references/2005-sti/interior-originals/rear-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "paint-matched AI variant",
+    "paint": "Aspen White 51E",
+    "limitations": "Rear-door camera angle is derived from the official overhead cabin image; it is not an original factory photograph.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/rear-gray.webp",
+    "generated_from": [
+      "references/2005-sti/interior-originals/rear-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "paint-matched AI variant",
+    "paint": "Crystal Gray Metallic 48W",
+    "limitations": "Rear-door camera angle is derived from the official overhead cabin image; it is not an original factory photograph.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/rear-silver.webp",
+    "generated_from": [
+      "references/2005-sti/interior-originals/rear-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "paint-matched AI variant",
+    "paint": "Platinum Silver Metallic 01G",
+    "limitations": "Rear-door camera angle is derived from the official overhead cabin image; it is not an original factory photograph.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/rear-black.webp",
+    "generated_from": [
+      "references/2005-sti/interior-originals/rear-blue.png"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "paint-matched AI variant",
+    "paint": "Obsidian Black Pearl 32J",
+    "limitations": "Rear-door camera angle is derived from the official overhead cabin image; it is not an original factory photograph.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/cockpit.webp",
+    "generated_from": [
+      "references/2005-sti/interior-official/official-cockpit.jpg",
+      "references/2005-sti/interior-official/official-overhead.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "official-brochure-based AI reconstruction",
+    "limitations": "Not an original factory render; fine controls, stitching and reflections may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/interior/cabin.webp",
+    "generated_from": [
+      "references/2005-sti/interior-official/official-overhead.jpg",
+      "references/2005-sti/interior-official/official-cockpit.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "kind": "official-brochure-based AI reconstruction",
+    "limitations": "Not an original factory render; fine controls, stitching and reflections may vary.",
+    "rights": "Local reconstruction grounded in manufacturer publication; underlying publication rights not established."
+  },
+  {
+    "file": "public/assets/accessories/floor-mats.webp",
+    "generated_from": [
+      "references/2005-sti/accessory-originals/floor-mats-black-v1.png",
+      "references/2005-sti/interior-official/official-overhead.jpg"
+    ],
+    "source_file": "references/2005-sti/sources/2011-us-performance-parts.pdf",
+    "pdf_page": 13,
+    "kind": "catalog-specification-based AI reconstruction",
+    "limitations": "Follows J5010SS700 blue/no-logo description and LHD four-piece layout; exact weave and edge construction remain illustrative.",
+    "rights": "Local reconstruction; underlying catalog rights not established."
+  },
+  {
+    "file": "public/assets/2005-sti/gray-2.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-113/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2024/06/2005_subaru_impreza-wrx-sti_20240420_125211-14168.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/gray-3.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-113/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2024/06/2005_subaru_impreza-wrx-sti_20240511_151141-14200.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/gray-1.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-113/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2024/06/2005_subaru_impreza-wrx-sti_20240420_124918-14117.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/gray-0.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-113/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2024/06/2005_subaru_impreza-wrx-sti_20240420_123917-14074.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/black-3.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-20/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2019/06/2005_subaru_impreza_wrx_sti_1560810008cfcd2TnX2arWLRMCBx6hkk5QPoA.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/black-2.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-20/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2019/06/2005_subaru_impreza_wrx_sti_1560809948ff9f98764danxkKeHroSg6wLFV7AsUZeA.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/black-0.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-20/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2019/06/2005_subaru_impreza_wrx_sti_1560809792dff9f98764da6jICBtdISVWitPYNvt9fw-e1562868569166.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/black-1.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-20/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2019/06/2005_subaru_impreza_wrx_sti_1563220967f7ebd598f3c19QUh5aNXmQ1yYivnWksydw.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/blue-0.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-67/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2022/02/2005_subaru_impreza-wrx-sti_2005_subaru_impreza-wrx-sti_00cb20d1-0365-4de9-ab81-eb297e2cd0bd-TwTVqv-74301-74301-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/blue-1.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-67/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2022/02/2005_subaru_impreza-wrx-sti_2005_subaru_impreza-wrx-sti_ec3d50d2-cbb3-41f1-b4f6-2d74ac02ad4d-MYAoOW-74323-74324-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/blue-3.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-67/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2022/02/2005_subaru_impreza-wrx-sti_2005_subaru_impreza-wrx-sti_5be40db4-873c-4ccb-8699-169408155a6f-g5zdfP-74883-74884-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/blue-2.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-67/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2022/02/2005_subaru_impreza-wrx-sti_2005_subaru_impreza-wrx-sti_debe0e4a-041e-405b-96c7-dc4c360b636f-Dk6WYA-74308-74309-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/silver-2.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-sti/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2016/04/IMG_20160422_112702.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/silver-3.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-sti/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2016/04/IMG_20160422_113005.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/silver-1.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-sti/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2016/04/IMG_20160422_112734-1.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/silver-0.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-sti/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2016/04/IMG_20160422_112459-e1462149765320.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/white-1.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-46/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2021/03/2005_subaru_impreza_wrx_sti_1617654236dff9f98764da2005_subaru_impreza_wrx_sti_1617654235f9f98764dac64dc1bd-fc19-4cf6-8986-45513dd58518-X7gTPI-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/white-0.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-46/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2021/03/2005_subaru_impreza_wrx_sti_161765425908495d565e2005_subaru_impreza_wrx_sti_1617654258565ef66e7dff9f986678f661-568f-4dc4-b51c-b56fb98e0c09-xTp1S4-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/white-2.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-46/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2021/03/2005_subaru_impreza_wrx_sti_1617654229fcd2082005_subaru_impreza_wrx_sti_16176542289f98764daf8666882-2519-48c8-a798-c42c6fdbd6d8-MUuXQg-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/2005-sti/white-3.jpg",
+    "listing": "https://bringatrailer.com/listing/2005-subaru-impreza-wrx-sti-46/",
+    "image_url": "https://bringatrailer.com/wp-content/uploads/2021/03/2005_subaru_impreza_wrx_sti_1617654760e7dff9f98764da2005_subaru_impreza_wrx_sti_161765475965ef66e7dff9f9876574e6d43-c69d-4d2f-8d18-e0e2596fd270-bu29vC-scaled.jpg",
+    "kind": "unaltered auction reference photograph",
+    "rights": "Public viewing source; publication license not established",
+    "limitations": "Used vehicles may contain modifications. Photos are not a complete matching paint/wheel render set."
+  },
+  {
+    "file": "public/assets/accessories/armrest.jpg",
+    "extracted_from": "references/2005-sti/extracted/22-Im52.jpg",
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 22,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "Period brochure illustration; shared trim reference.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  },
+  {
+    "file": "public/assets/accessories/mirror-compass.jpg",
+    "extracted_from": "references/2005-sti/extracted/22-Im50.jpg",
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 22,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "Period compass-only mirror illustration; not HomeLink.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  },
+  {
+    "file": "public/assets/accessories/alarm.jpg",
+    "extracted_from": "references/2005-sti/extracted/22-Im57.jpg",
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 22,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "Security decal, not a photograph of kit contents.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  },
+  {
+    "file": "public/assets/accessories/hood-protector.jpg",
+    "extracted_from": "references/2005-sti/extracted/21-Im43.jpg",
+    "source_file": "references/2005-sti/sources/2005-us-impreza-brochure.pdf",
+    "pdf_page": 21,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "Illustrated on red WRX, not an STi.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  },
+  {
+    "file": "public/assets/accessories/titanium-knob.png",
+    "extracted_from": "references/2005-sti/extracted/performance-3-Im2.png",
+    "source_file": "references/2005-sti/sources/2011-us-performance-parts.pdf",
+    "pdf_page": 3,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "C1010FE100 six-speed shown in later catalog, not introduction-date evidence.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  },
+  {
+    "file": "public/assets/accessories/short-shifter.jpg",
+    "extracted_from": "references/2005-sti/extracted/performance-3-Im9.jpg",
+    "source_file": "references/2005-sti/sources/2011-us-performance-parts.pdf",
+    "pdf_page": 3,
+    "kind": "manufacturer catalog image, extracted unchanged (PNG format conversion for titanium knob)",
+    "limitations": "Six-speed assembly shown in later catalog; exact original/superseding revision cannot be distinguished visually.",
+    "rights": "Manufacturer publication; production republication permission not established."
+  }
+]

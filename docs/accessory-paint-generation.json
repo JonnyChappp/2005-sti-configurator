@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "reference-guided generation and precise paint edits",
+  "security_system": {
+    "references": [
+      "references/2005-sti/accessory-sources/security-upgrade-kit-reference.webp",
+      "references/2005-sti/accessory-sources/security-upgrade-h7110ss300.jpg"
+    ],
+    "prompt": "Create a clean high-resolution OEM automotive accessory product photograph based on this period Subaru Impreza security-system upgrade kit reference. Landscape 3:2, 1536x1024. Arrange the complete functional kit neatly on a seamless pale gray studio background: compact black security control module on a silver mounting bracket, black round security horn with long dark metal bracket, two small black relays on a small silver bracket, coiled black extension wiring harness with period-correct white multi-pin connectors, small silver mounting hardware, and two small blue Subaru security window decals. Remove the paper instruction sheet and all packaging. Preserve the early-2000s component designs; do not modernize the electronics or add a remote-start fob. Use soft overhead product lighting, crisp focus, realistic plastics, metal and wiring, subtle contact shadows. Any tiny regulatory or part-label text on components should be non-readable rather than invented. No large text, watermark, hands, car, box, or decorative branding.",
+    "original_file": "references/2005-sti/accessory-originals/security-system.png",
+    "delivery_file": "public/assets/accessories/security-system.webp",
+    "limitations": "Component geometry is based on a period H7110SS100 Impreza kit; the 2005 H7110SS300/H7110SS400 application is independently documented, but this image does not claim exact readable part labels."
+  },
+  "paint_aware_accessories": [
+    {
+      "id": "hood-protector",
+      "base_reference": "public/assets/studio/blue-gold.webp",
+      "brochure_reference": "public/assets/accessories/hood-protector.jpg",
+      "base_file": "references/2005-sti/accessory-originals/paint-aware/hood-protector-blue.png",
+      "variant_files": ["blue", "white", "gray", "silver", "black"],
+      "base_prompt_summary": "Exact 2005 STI front close-up with the brochure's smoke-tinted hood protector installed across the hood leading edge.",
+      "variant_prompt_template": "Change only the visible WR Blue exterior paint to the selected factory paint. Preserve the smoke-tinted hood protector, camera, crop, geometry, lighting and all non-paint details."
+    },
+    {
+      "id": "fog-lights",
+      "base_reference": "public/assets/studio/blue-gold.webp",
+      "brochure_reference": "public/assets/accessories/fog-lights.jpg",
+      "base_file": "references/2005-sti/accessory-originals/paint-aware/fog-lights-blue.png",
+      "variant_files": ["blue", "white", "gray", "silver", "black"],
+      "base_prompt_summary": "Exact 2005 STI front close-up with matched round projector fog lamps and color-keyed bumper surrounds.",
+      "variant_prompt_template": "Change only the visible WR Blue exterior paint and fog-lamp surrounds to the selected factory paint. Preserve the lamps, camera, crop, geometry, lighting and all non-paint details."
+    }
+  ],
+  "paint_map": {
+    "blue": "WR Blue Pearl 02C",
+    "white": "Aspen White 51E",
+    "gray": "Crystal Gray Metallic 48W",
+    "silver": "Platinum Silver Metallic 01G",
+    "black": "Obsidian Black Pearl 32J"
+  },
+  "encoding": "Original 1536x1024 PNGs preserved; delivery files are WebP quality 88."
+}

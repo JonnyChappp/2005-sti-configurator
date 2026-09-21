@@ -1,0 +1,102 @@
+[
+  {
+    "id": "blue-gold",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/2005-sti/blue-0.jpg",
+    "prompt": "Use case: precise-object-edit. Create a clean studio configurator asset from this reference 2005 US Subaru Impreza WRX STi. Preserve exact blobeye 2005 body, headlights, large scoop, wing, stock ride height, 17x8 gold BBS split-spoke wheels and gold Brembo calipers, WR Blue Pearl 02C. Remove aftermarket mudflaps and plate bracket. Replace background with uniform very pale gray #f1f3f4 seamless studio floor, soft natural contact shadow. Wide landscape 1536x1024, whole car centered, front-left three-quarter view exactly as reference, ample 12% horizontal margin, no crop. No text, labels, borders or watermarks. Photorealistic product illustration. Do not add fog lamps, roof spoiler, front lip, new grille or other accessories. Maintain correct 2005 details.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/blue-gold.png",
+    "delivery_file": "public/assets/studio/blue-gold.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "blue-silver",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru WR Blue Pearl 02C and ONLY the two visible BBS wheel finishes to silver. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/blue-silver.png",
+    "delivery_file": "public/assets/studio/blue-silver.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "white-gold",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Aspen White 51E nonmetallic white and ONLY the two visible BBS wheel finishes to gold. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/white-gold.png",
+    "delivery_file": "public/assets/studio/white-gold.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "white-silver",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Aspen White 51E nonmetallic white and ONLY the two visible BBS wheel finishes to silver. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/white-silver.png",
+    "delivery_file": "public/assets/studio/white-silver.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "gray-gold",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Crystal Gray Metallic 48W medium charcoal gray and ONLY the two visible BBS wheel finishes to gold. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/gray-gold.png",
+    "delivery_file": "public/assets/studio/gray-gold.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "gray-silver",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Crystal Gray Metallic 48W medium charcoal gray and ONLY the two visible BBS wheel finishes to silver. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/gray-silver.png",
+    "delivery_file": "public/assets/studio/gray-silver.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "black-gold",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Obsidian Black Pearl 32J deep black and ONLY the two visible BBS wheel finishes to gold. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/black-gold.png",
+    "delivery_file": "public/assets/studio/black-gold.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "black-silver",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Obsidian Black Pearl 32J deep black and ONLY the two visible BBS wheel finishes to silver. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/black-silver.png",
+    "delivery_file": "public/assets/studio/black-silver.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "silver-gold",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Platinum Silver Metallic 01G light silver and ONLY the two visible BBS wheel finishes to gold. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/silver-gold.png",
+    "delivery_file": "public/assets/studio/silver-gold.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  },
+  {
+    "id": "silver-silver",
+    "tool": "built-in image_gen",
+    "reference": "public/assets/studio/blue-gold.png",
+    "prompt": "Use case: precise-object-edit. This is a matched configurator variant. Change ONLY the body paint to Subaru Platinum Silver Metallic 01G light silver and ONLY the two visible BBS wheel finishes to silver. Keep exactly the same 1536x1024 composition, camera, car position, scale, background, lighting, shadow, 2005 blobeye STi geometry, stock stance, tires, BBS spoke geometry, gold Brembo brake calipers, glass and black trim. Paint all body panels, mirrors, scoop and wing consistently. Gold brake calipers must stay gold even for silver wheels. No other changes, no text or watermarks. Photo-realistic studio reconstruction.",
+    "limitations": "AI-assisted reconstruction, not documentary evidence or a calibrated paint sample. Fine badges, reflections and wheel details may vary. Does not depict accessory selections.",
+    "original_file": "references/2005-sti/studio-originals/silver-silver.png",
+    "delivery_file": "public/assets/studio/silver-silver.webp",
+    "encoding": "WebP quality 88, same dimensions and content; original PNG preserved. WebP may not retain embedded generation metadata; provenance retained here."
+  }
+]
