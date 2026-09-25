@@ -14,3 +14,23 @@ The reflections come from **Studio Small 09** by **Sergej Majboroda**, downloade
 The controls allow unrestricted horizontal rotation and a small vertical tilt. Zoom and pan are disabled. The matching studio image is displayed while the model loads and remains the fallback when WebGL is unavailable.
 
 This is a close Blobeye mesh rather than factory Subaru CAD. The underlying model still contains approximate or modified hood, roof, grille, bumper, mirror and exhaust geometry. It should be treated as an interactive historical reconstruction, not a dimensional reference.
+
+## Attachment audit
+
+The source GLTF stores some accessory parts at their object origins rather than
+their assembled positions. The misplaced HKS exhaust, aftermarket horns and
+loose trunk lock are hidden. The exhaust outlet is rebuilt as a hollow, rolled
+single tip beneath the driver's-side rear bumper. The duplicate stock rear
+bumper is hidden while the flared bumper remains.
+
+Grille and trunk emblems are attached using ray intersections with their named
+body surfaces rather than guessed fore/aft coordinates. Rear lettering faces
+outward and reads correctly. The trunk uses a Subaru wordmark instead of the
+later oval emblem. The original authored paint normals are preserved; clear
+headlamp reflectors are no longer assigned the amber turn-signal material.
+The rectangular studio lights now initialize Three.js's required area-light
+uniforms.
+
+Placement is visually checked from front, side and rear views. Geometry remains
+an approximation: these corrections do not turn this modified base mesh into
+a factory-accurate scan or make it indistinguishable from photography.

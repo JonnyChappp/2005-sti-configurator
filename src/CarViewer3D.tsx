@@ -3,6 +3,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
+import { RectAreaLightUniformsLib } from "three/examples/jsm/lights/RectAreaLightUniformsLib.js";
 import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader.js";
 
 const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
@@ -45,7 +46,7 @@ function paintMicroTexture() {
   return texture;
 }
 
-function badgeTexture(kind: "subaru" | "sti") {
+function badgeTexture(kind: "subaru" | "sti" | "wordmark") {
   const canvas = document.createElement("canvas");
   canvas.width = 256;
   canvas.height = 128;
@@ -68,6 +69,12 @@ function badgeTexture(kind: "subaru" | "sti") {
       ctx.fillRect(-radius, -radius, radius * 2, radius * 2);
       ctx.restore();
     }
+  } else if (kind === "wordmark") {
+    ctx.font = "600 32px Arial";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillStyle = "#e2e6eb";
+    ctx.fillText("S U B A R U", 128, 64);
   } else {
     ctx.font = "italic 900 78px Arial";
     ctx.textAlign = "center";
@@ -151,6 +158,7 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
     setReady(false);
     let stopped = false;
     let frame = 0;
+    RectAreaLightUniformsLib.init();
     const scene = new THREE.Scene();
     const backdrop = studioBackdropTexture();
     scene.background = backdrop;
@@ -215,10 +223,10 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
     scene.add(key);
     const fill = new THREE.DirectionalLight("#dbeaff", 0.62);
     fill.position.set(-5, 3, -4);
-    const strip = new THREE.RectAreaLight("#f4f7ff", 16, 5.5, 1.8);
+    const strip = new THREE.RectAreaLight("#f4f7ff", 3, 5.5, 1.8);
     strip.position.set(-3.5, 5, 2.5);
     strip.lookAt(0, 0.7, 0);
-    const rimLight = new THREE.RectAreaLight("#fff4df", 10, 3.5, 2);
+    const rimLight = new THREE.RectAreaLight("#fff4df", 2, 3.5, 2);
     rimLight.position.set(3.8, 3.2, -4.5);
     rimLight.lookAt(0, 0.8, 0);
     scene.add(fill, strip, rimLight, new THREE.HemisphereLight("#f8fbff", "#5f6569", 0.42));
@@ -275,12 +283,12 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
     const blackPlastic = new THREE.MeshStandardMaterial({ color: "#0c1114", roughness: 0.62, metalness: 0.03 });
     const lowerDark = new THREE.MeshStandardMaterial({ color: "#121619", roughness: 0.78, metalness: 0.08 });
     const glass = new THREE.MeshPhysicalMaterial({
-      color: "#101b22", metalness: 0, roughness: 0.06, transmission: 0.18,
+      color: "#101b22", metalness: 0, roughness: 0.1, transmission: 0.05,
       thickness: 0.015, ior: 1.52, attenuationColor: "#1d333e", attenuationDistance: 0.7,
-      opacity: 1, clearcoat: 1, envMapIntensity: 1.35, side: THREE.DoubleSide,
+      opacity: 1, clearcoat: 0.35, envMapIntensity: 0.3, side: THREE.DoubleSide,
     });
     const clearLens = new THREE.MeshPhysicalMaterial({
-      color: "#e8f1f3", roughness: 0.055, transmission: 0.72,
+      color: "#ffffff", roughness: 0.025, transmission: 0.96,
       thickness: 0.012, ior: 1.49, opacity: 1, clearcoat: 1,
       envMapIntensity: 1.5, side: THREE.DoubleSide,
     });
@@ -297,6 +305,8 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
     });
     const subaruBadgeMap = badgeTexture("subaru");
     const stiBadgeMap = badgeTexture("sti");
+    const wordmarkMap = badgeTexture("wordmark");
+    const wordmark = new THREE.MeshStandardMaterial({ map: wordmarkMap, transparent: true, alphaTest: 0.1, metalness: 0.65, roughness: 0.25 });
     const subaruBadge = new THREE.MeshBasicMaterial({
       map: subaruBadgeMap, transparent: true, depthWrite: false, toneMapped: false,
     });
@@ -305,11 +315,12 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
     });
     const hiddenParts = [
       "Rear Bumper Diffuser", "Front Bumper Attachment", "Front Canards", "Front Bumper Skirt",
+      "HKS Exhaust", "Aftermarket Horns", "Trunk Key",
     ];
     const materials = [
       bodyPaint, wheelMetal, chrome, darkChrome, rubber, blackPlastic, lowerDark,
       glass, clearLens, redLens, amberLens, brakeRotor, brakeCaliper,
-      subaruBadge, stiBadge,
+      subaruBadge, stiBadge, wordmark,
     ];
 
     new GLTFLoader().load(
@@ -317,7 +328,7 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
       (gltf) => {
         if (stopped) return;
         const car = gltf.scene;
-        car.rotation.x = -Math.PI / 2;
+
         car.traverse((object) => {
           if (!(object instanceof THREE.Mesh)) return;
           const rawName = object.name;
@@ -331,20 +342,18 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
               0.41599,
             );
           }
-          object.visible = !hiddenParts.some((part) => name.startsWith(part));
+          object.visible = !hiddenParts.some((part) => name.startsWith(part))
+            && !name.startsWith("Rear Bumper Car Paint");
           if (/Car Paint/.test(name)) {
-            // The source scan was aggressively optimized. Rebuilding the paint
-            // normals removes the faceted shading that otherwise reads as a game model.
-            object.geometry.computeVertexNormals();
-            object.geometry.normalizeNormals();
             object.material = bodyPaint;
           }
           else if (/^Rim.* Rim/.test(name)) object.material = wheelMetal;
           else if (/Tire/.test(name)) object.material = rubber;
           else if (/Window/.test(name)) object.material = glass;
           else if (/TL Glass Red/.test(name)) object.material = redLens;
-          else if (/Turn Signals|Reflector/.test(name)) object.material = amberLens;
+          else if (/Turn Signals/.test(name)) object.material = amberLens;
           else if (/Clear|HL Glass/.test(name)) object.material = clearLens;
+          else if (/Reflector/.test(name) && /Chrome/.test(name)) object.material = chrome;
           else if (/Dark Chrome/.test(name)) object.material = darkChrome;
           else if (/Chrome/.test(name)) object.material = chrome;
           else if (/Bottom|Matte \(Rough\)|Grill/.test(name)) object.material = lowerDark;
@@ -373,6 +382,7 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
           car.add(caliper);
         }
 
+        car.updateMatrixWorld(true);
         const addBadge = (
           material: THREE.Material,
           width: number,
@@ -380,16 +390,54 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
           position: [number, number, number],
           front: boolean,
         ) => {
+          const surfaceName = front
+            ? (material === subaruBadge ? "GDB_Front_Grill_Car_Paint" : "GDB_Front_Grill_Grill")
+            : "Trunk_Car_Paint";
+          const surfaces: THREE.Object3D[] = [];
+          car.traverse((part) => {
+            if (part instanceof THREE.Mesh && part.name.startsWith(surfaceName)) surfaces.push(part);
+          });
+          const ray = new THREE.Raycaster(
+            new THREE.Vector3(position[0], front ? -4 : 4, position[2]),
+            new THREE.Vector3(0, front ? 1 : -1, 0),
+          );
+          const hit = ray.intersectObjects(surfaces, false)[0];
+          if (!hit) return;
           const badge = new THREE.Mesh(new THREE.PlaneGeometry(width, height), material);
-          badge.position.set(...position);
-          badge.rotation.x = front ? Math.PI / 2 : -Math.PI / 2;
+          badge.position.copy(hit.point);
+          const faceNormal = hit.face!.normal.clone().transformDirection(hit.object.matrixWorld);
+          // Keep lettering horizontal across the grille divider and trunk crease.
+          const normal = new THREE.Vector3(0, front ? -1 : 1, THREE.MathUtils.clamp(faceNormal.z, -0.25, 0.25)).normalize();
+          const right = new THREE.Vector3(0, 0, 1).cross(normal).normalize();
+          const up = normal.clone().cross(right).normalize();
+          badge.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(right, up, normal));
+          badge.position.addScaledVector(normal, 0.008);
           badge.renderOrder = 4;
           car.add(badge);
         };
-        addBadge(subaruBadge, 0.25, 0.105, [0, -3.236, 0.77], true);
-        addBadge(stiBadge, 0.18, 0.09, [-0.31, -3.238, 0.63], true);
-        addBadge(subaruBadge, 0.24, 0.1, [0, 2.855, 1.14], false);
-        addBadge(stiBadge, 0.17, 0.085, [0.31, 2.858, 1.03], false);
+        addBadge(subaruBadge, 0.17, 0.073, [0, 0, 0.825], true);
+        addBadge(stiBadge, 0.14, 0.065, [-0.28, 0, 0.81], true);
+        addBadge(wordmark, 0.62, 0.16, [0, 0, 1.23], false);
+        addBadge(stiBadge, 0.23, 0.10, [-0.62, 0, 1.07], false);
+
+        // Stock-style single outlet on the driver's side, below the rear bumper.
+        const exhaust = new THREE.Group();
+        exhaust.name = "Factory exhaust outlet";
+        const tip = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.09, 0.46, 48, 1, true), chrome);
+        tip.position.set(0.79, 2.64, 0.43);
+        const inner = new THREE.Mesh(new THREE.CylinderGeometry(0.078, 0.078, 0.44, 48, 1, true), lowerDark);
+        inner.material = lowerDark;
+        inner.material.side = THREE.DoubleSide;
+        inner.position.copy(tip.position);
+        const lip = new THREE.Mesh(new THREE.TorusGeometry(0.084, 0.006, 10, 48), chrome);
+        lip.rotation.x = Math.PI / 2;
+        lip.position.set(0.79, 2.871, 0.43);
+        const darkness = new THREE.Mesh(new THREE.CircleGeometry(0.078, 48), blackPlastic);
+        darkness.rotation.x = -Math.PI / 2;
+        darkness.position.set(0.79, 2.43, 0.43);
+        exhaust.add(tip, inner, lip, darkness);
+        car.add(exhaust);
+        car.rotation.x = -Math.PI / 2;
 
         const bounds = new THREE.Box3().setFromObject(car);
         const center = bounds.getCenter(new THREE.Vector3());
@@ -436,6 +484,7 @@ export default function CarViewer3D({ color, wheels, fallback, alt }: Props) {
       paintGrain.dispose();
       subaruBadgeMap.dispose();
       stiBadgeMap.dispose();
+      wordmarkMap.dispose();
       renderer.dispose();
       renderer.domElement.remove();
       paint.current = rim.current = null;
