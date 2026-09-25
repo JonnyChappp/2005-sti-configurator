@@ -20,7 +20,7 @@ Local preview: http://127.0.0.1:5173. Production output: `dist/`.
 ## Implemented
 
 - Trim, paint/wheels, packages, accessories and itemized summary.
-- Five paints, two BBS finishes, fixed blue/black Ecsaine interior and six-speed manual.
+- Five paints, two BBS finishes, a touch-controlled 360° exterior, fixed blue/black Ecsaine interior and six-speed manual.
 - 13 researched accessories and three equipment groups, with availability dates.
 - Fixed May 2005 MSRP and full verified option availability, with contiguous U.S. / Alaska destination charges.
 - Package de-duplication, incompatible mirror/gauge replacement confirmation, optional retention of package components.
@@ -33,7 +33,7 @@ Local preview: http://127.0.0.1:5173. Production output: `dist/`.
 
 - `src/catalog.ts`: projects preserved research into the application catalog; dollars converted to integer cents.
 - `src/engine.ts`: pure availability, selection, normalization and pricing functions.
-- `src/App.tsx`: React experience and dialogs; `src/main.tsx` mounts the application.
+- `src/App.tsx`: React experience and dialogs; `src/CarViewer3D.tsx` renders the interactive exterior; `src/main.tsx` mounts the application.
 - `src/style.css`: mobile-first reference-inspired layout and print styling.
 - `references/2005-sti/`: original research, sources and evidence.
 - `references/impreza-mobile/`: captured modern Subaru reference screens.
@@ -45,7 +45,7 @@ All ten paint × BBS finish combinations have matching 1536 × 1024 front, side 
 
 All 13 selectable accessories have a detail image. The security upgrade now uses a sharp period-kit reconstruction instead of the brochure's tiny window-decal crop. Hood-protector and fog-lamp cards follow all five selected paint colors. HomeLink mirror, the blue no-logo J5010SS700 carpet-mat set and wheel locks also use documented reconstructions. The carpet-mat color and lack of embroidery follow Subaru's exact catalog listing for the 2004–07 WRX STI. Generic five-speed parts and incompatible gauge photos were rejected.
 
-The viewer presents three named exterior angles and three matching interior views rather than claiming a 360-degree sequence. The cockpit, full-cabin and rear-seat interior reconstructions are grounded in official 2005 Subaru brochure photography and preserve the U.S. left-hand-drive blue/black Ecsaine cabin. The exposed door jamb in the rear view follows all five selected factory paint colors. Selected accessories are not yet composited onto the vehicle or cabin. Licensed production assets, exact reference typography and final pixel-level refinement remain. Original PNGs are preserved under `references/2005-sti/studio-originals/` and `references/2005-sti/interior-originals/`; reproduce delivery files with `node scripts/optimize-assets.mjs`.
+The exterior now uses an interactive WebGL model with full horizontal rotation, constrained vertical tilt and disabled zoom. Its physical materials update for all five paints and both wheel finishes; the earlier studio images remain as loading and WebGL fallbacks. The free base mesh is “Subaru Impreza WRX STi 2004 Custom” by MAC ULT ARTS, used under CC BY 4.0 and modified by hiding the obvious diffuser, canards, splitter and bumper attachments. The mesh is a close Blobeye representation rather than factory CAD, so several fine details remain approximate. The cockpit, full-cabin and rear-seat interior reconstructions are grounded in official 2005 Subaru brochure photography and preserve the U.S. left-hand-drive blue/black Ecsaine cabin. The exposed door jamb in the rear view follows all five selected factory paint colors. Selected accessories are not yet composited onto the vehicle or cabin. Original PNGs are preserved under `references/2005-sti/studio-originals/` and `references/2005-sti/interior-originals/`; reproduce delivery files with `node scripts/optimize-assets.mjs`.
 
 Source-photo and brochure publication permissions have not been established; this is a local research preview.
 

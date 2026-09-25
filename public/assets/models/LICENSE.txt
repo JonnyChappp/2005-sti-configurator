@@ -1,0 +1,8 @@
+Subaru Impreza WRX STi 2004 Custom
+Creator: MAC ULT ARTS
+Source: https://sketchfab.com/3d-models/subaru-impreza-wrx-sti-2004-custom-08296bc950364621b6174a3078bb19e0
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Adaptations for this site: material system replaced; paint and wheel-finish variants added; selected aftermarket attachments hidden; presentation, lighting, camera, and web packaging changed.
+Subaru names and vehicle design remain trademarks/property of their respective owners. The mesh creator and Sketchfab do not endorse this site.

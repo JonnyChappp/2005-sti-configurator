@@ -30,6 +30,7 @@ import {
   type InteriorAngle,
 } from "./assets";
 import { downloadBuild } from "./export";
+import CarViewer3D from "./CarViewer3D";
 const steps = ["Trim", "Colors", "Packages", "Accessories", "Summary"];
 export default function App() {
   const [build, setBuild] = useState<Build>(() => {
@@ -648,6 +649,19 @@ export default function App() {
                       their source and any model or date limitations.
                     </p>
                     <p>
+                      Interactive exterior geometry is adapted from “Subaru
+                      Impreza WRX STi 2004 Custom” by MAC ULT ARTS under a{" "}
+                      <a
+                        href="https://creativecommons.org/licenses/by/4.0/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        CC BY 4.0 license
+                      </a>
+                      . Materials, wheel finishes, lighting, presentation and
+                      selected body attachments were changed for this archive.
+                    </p>
+                    <p>
                       The catalog includes verified model-year equipment.
                       Overseas, later-fitment and unresolved accessories are
                       excluded pending evidence.
@@ -758,7 +772,7 @@ function Viewer({
   view: string;
 }) {
   const combined = view === "Exterior & interior";
-  const [angle, setAngle] = useState<ExteriorAngle>("front");
+  const angle: ExteriorAngle = "front";
   const [interiorAngle, setInteriorAngle] = useState<InteriorAngle>("cockpit");
   const interior = view === "Interior";
   const src = interior
@@ -777,25 +791,30 @@ function Viewer({
       className={
         "viewer " + (interior ? "interior" : "studio")
       }
-      aria-busy={loaded !== src}
+      aria-busy={interior && loaded !== src}
     >
-      <img
-        key={src}
-        src={src}
-        onLoad={() => setLoaded(src)}
-        alt={
-          interior
-            ? `2005 WRX STi blue and black interior — ${interiorAngle} view, official brochure-based reconstruction`
-            : `2005 WRX STi in ${colors.find((c) => c.id === color)?.name} with ${wheels} BBS wheels — ${angle} view, reconstructed illustration`
-        }
-      />
-      <div
-        className="angle-controls"
-        role="group"
-        aria-label={interior ? "Interior camera angle" : "Exterior camera angle"}
-      >
-        {interior
-          ? (["cockpit", "cabin", "rear"] as const).map((value) => (
+      {interior ? (
+        <img
+          key={src}
+          src={src}
+          onLoad={() => setLoaded(src)}
+          alt={`2005 WRX STi blue and black interior — ${interiorAngle} view, official brochure-based reconstruction`}
+        />
+      ) : (
+        <CarViewer3D
+          color={color}
+          wheels={wheels}
+          fallback={src}
+          alt={`Interactive 3D view of a 2005 WRX STi in ${colors.find((c) => c.id === color)?.name} with ${wheels} wheels`}
+        />
+      )}
+      {interior && (
+        <div
+          className="angle-controls"
+          role="group"
+          aria-label="Interior camera angle"
+        >
+          {(["cockpit", "cabin", "rear"] as const).map((value) => (
               <button
                 key={value}
                 type="button"
@@ -804,22 +823,13 @@ function Viewer({
               >
                 {value[0].toUpperCase() + value.slice(1)}
               </button>
-            ))
-          : (["front", "side", "rear"] as const).map((value) => (
-              <button
-                key={value}
-                type="button"
-                aria-pressed={angle === value}
-                onClick={() => setAngle(value)}
-              >
-                {value[0].toUpperCase() + value.slice(1)}
-              </button>
             ))}
-      </div>
+        </div>
+      )}
       <figcaption>
         {interior
           ? "Official 2005 Subaru brochure-based reconstruction"
-          : "Reconstructed illustration · accessories not shown"}
+          : "Interactive 360° model · drag to explore · accessories not shown"}
       </figcaption>
     </figure>
   );
